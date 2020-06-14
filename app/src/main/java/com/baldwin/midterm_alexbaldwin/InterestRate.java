@@ -93,16 +93,11 @@ public class InterestRate extends Fragment {
         sbInterestRate = root.findViewById(R.id.sbInterestRate);
         etInterestRate = root.findViewById(R.id.etInterestRate);
 
-        //BigDecimal bd = new BigDecimal(etInterestRate.getText().toString());
-
-        //interestRate = (bd.multiply(new BigDecimal(1000))).intValue();
-       /* BigDecimal bd = new BigDecimal(interestRate/1000);
-        etInterestRate.setText(bd.toString());*/
        updateTaxRateEditText();
         sbInterestRate.setMax(25000);
 
         //TODO change this to do it programatically
-       sbInterestRate.setMin(1);
+       //sbInterestRate.setMin(1);
         sbInterestRate.setProgress(interestRate);
 
         sbChangeListener = new SeekBar.OnSeekBarChangeListener() {

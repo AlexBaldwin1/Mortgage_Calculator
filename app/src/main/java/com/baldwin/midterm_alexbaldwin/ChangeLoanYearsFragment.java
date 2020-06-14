@@ -12,9 +12,6 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
-/**
- * A simple {@link Fragment} subclass.
- */
 public class ChangeLoanYearsFragment extends DialogFragment implements View.OnClickListener {
 
     ChangeLoanYearsCallBack mCallBack;
@@ -89,11 +86,6 @@ public class ChangeLoanYearsFragment extends DialogFragment implements View.OnCl
         root.findViewById(R.id.btn20Years).setOnClickListener( this);
         root.findViewById(R.id.btn25Years).setOnClickListener( this);
         root.findViewById(R.id.btn30Years).setOnClickListener( this);
-
-
-
-
-
 
     }
 
