@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChangeLoanYearsFragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="How many years for repayment?"
+        android:textAlignment="center"></TextView>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shrinkColumns="0,1,2,3,4">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btn1Years"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1"></Button>
+
+            <Button
+                android:id="@+id/btn2Years"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2"></Button>
+
+            <Button
+                android:id="@+id/btn3Years"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3"></Button>
+
+            <Button
+                android:id="@+id/btn5Years"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5"></Button>
+
+            <Button
+                android:id="@+id/btn7Years"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7"></Button>
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btn10Years"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10"></Button>
+
+            <Button
+                android:id="@+id/btn15Years"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="15"></Button>
+
+            <Button
+                android:id="@+id/btn20Years"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20"></Button>
+
+            <Button
+                android:id="@+id/btn25Years"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="25"></Button>
+
+            <Button
+                android:id="@+id/btn30Years"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="30"></Button>
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>
